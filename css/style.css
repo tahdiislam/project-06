@@ -1,0 +1,101 @@
+/* fonts start */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* fonts end */
+
+/* common section starts here */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn{
+    color: #ffffff;
+    background-color: #E02C6D;
+    border-radius: 41px;
+    padding: 8px 25px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* common section ends here */
+
+/* nav bar start here */
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo p {
+    font-size: 24px;
+    font-weight: 700;
+    columns: #3A3A3A;
+}
+
+.menu-bar ul{
+    display: flex;
+}
+
+.menu-bar ul li, a {
+    list-style: none;
+    text-decoration: none;
+    font-size: 16px;
+    color: #3A3A3A;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 0 17px;
+}
+
+/* nav bar end here */
+
+/* first section start here */
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 70px 0 100px 0;
+}
+
+.half-width{
+    width: 50%;
+}
+
+.div001{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 582px;
+    height: 270px;
+    padding-left: 100px;
+}
+
+.div002{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div002 img{
+    background-image: url("../images/banner/Circle\ design.svg");
+    background-size: cover;
+}
+/* first section end here */
+
+/* second section start here */
+
+.brand-logo{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0 165px;
+    padding: 40px 30px;
+}
+
+.brand-logo img {
+    padding: 0 30px;
+}
+
+/* second section end here */
